@@ -2,10 +2,7 @@
   color: var(--text-color, #f1b2ce);
   font-family: var(--main-font, monospace);
   background-color: var(--bg-color, #000028);
-  background-image: var(
-    --background-image,
-    url(../images/cover-image-dark.png)
-  );
+  background-image: var(--background-image, url(../images/cover-image-dark.png));
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
