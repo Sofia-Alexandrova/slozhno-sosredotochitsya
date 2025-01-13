@@ -2,7 +2,10 @@
   color: var(--text-color, #f1b2ce);
   font-family: var(--main-font, monospace);
   background-color: var(--bg-color, #000028);
-  background-image: var(--background-image, url(../images/cover-image-dark.png));
+  background-image: var(
+    --background-image,
+    url(../images/cover-image-dark.png)
+  );
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -198,7 +201,6 @@
   display: grid;
   grid-template-columns: 1fr;
   place-content: start center;
-  gap: 10px;
 }
 
 .content__paragraph {
@@ -206,6 +208,11 @@
   font-size: 18px;
   line-height: 130%;
   color: var(--text-color, #f1b2ce);
+  margin-bottom: 10px;
+}
+
+.content__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 .text__link {
