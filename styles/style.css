@@ -201,6 +201,7 @@
   display: grid;
   grid-template-columns: 1fr;
   place-content: start center;
+  gap: 10px;
 }
 
 .content__paragraph {
